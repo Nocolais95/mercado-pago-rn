@@ -279,6 +279,7 @@ export interface CardFormProps {
   onCardDataChange?: (cardData: CardData) => void;
   onCardValid?: (isValid: boolean) => void;
   onSubmit?: (cardData: CardData) => void;
+  onCancel?: () => void;
   style?: any;
   className?: string;
   theme?: 'light' | 'dark';

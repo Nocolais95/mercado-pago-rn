@@ -324,7 +324,7 @@ export const Checkout: React.FC<CheckoutProps> = ({
         mediaPlaybackRequiresUserAction={false}
         mixedContentMode="compatibility"
         userAgent="MercadoPagoReactNative/1.0"
-        onShouldStartLoadWithRequest={(request) => {
+        onShouldStartLoadWithRequest={(request: any) => {
           // Permitir solo URLs de Mercado Pago
           const allowedDomains = [
             'mercadopago.com',

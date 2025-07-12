@@ -280,7 +280,7 @@ export const CardForm: React.FC<CardFormProps> = ({
               onChangeText={(text) => setCardData(prev => ({ ...prev, cardholderName: text }))}
               placeholder="Nombre como aparece en la tarjeta"
               placeholderTextColor={themeStyles.placeholder.color}
-              autoComplete="cc-name"
+              autoComplete="name"
               autoCapitalize="words"
             />
             {errors.cardholderName && (
