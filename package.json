@@ -1,0 +1,53 @@
+{
+  "name": "mercadopago-react-native-lib",
+  "version": "1.0.0",
+  "description": "Librería React Native para integración nativa con Mercado Pago Checkout API",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*",
+    "android/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf lib",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "mercadopago",
+    "payment",
+    "checkout",
+    "expo",
+    "typescript",
+    "native",
+    "android",
+    "ios"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/mercadopago-react-native-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/mercadopago-react-native-lib/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/mercadopago-react-native-lib#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0",
+    "expo": ">=40.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-native": "^0.70.0",
+    "typescript": "^4.9.0",
+    "react": "^18.0.0",
+    "react-native": "^0.72.0"
+  }
+} 

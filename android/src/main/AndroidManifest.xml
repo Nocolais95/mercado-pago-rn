@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mercadopago.reactnative">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application>
+        <!-- Actividad personalizada para Mercado Pago -->
+        <activity
+            android:name=".MercadoPagoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MercadoPago"
+            android:screenOrientation="portrait" />
+            
+        <!-- Configuración para Mercado Pago SDK -->
+        <activity
+            android:name="com.mercadopago.android.px.core.MercadoPagoCheckout"
+            android:exported="false"
+            android:theme="@style/Theme.MercadoPago" />
+    </application>
+
+</manifest> 
