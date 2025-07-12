@@ -1,5 +1,5 @@
 {
-  "name": "mercadopago-react-native-lib",
+  "name": "@nocolais/mercadopago-react-native-lib",
   "version": "1.0.0",
   "description": "Librería React Native para integración nativa con Mercado Pago Checkout API",
   "main": "lib/index.js",
